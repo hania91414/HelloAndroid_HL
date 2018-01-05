@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    tools:context="com.example.hanna.helloandroid.MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/paddingNormal"
+        android:paddingLeft="@dimen/paddingBig"
+        android:paddingRight="@dimen/paddingBig"
+        android:paddingTop="@dimen/paddingBig"
+        android:src="@drawable/images" />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center_horizontal"
+        android:paddingBottom="@dimen/paddingSmall"
+        android:text="@string/adress"
+        android:textSize="@dimen/textNormal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center_horizontal"
+        android:paddingBottom="@dimen/paddingSmall"
+        android:text="@string/adress2"
+        android:textSize="@dimen/textNormal" />
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_gravity="center_horizontal">
+
+    <ImageView
+        android:id="@+id/phone_symbol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/phone_no"
+        android:src="@drawable/phone_icon" />
+    <TextView
+        android:id="@+id/phone_no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:layout_marginTop="@dimen/paddingMicro"
+        android:layout_marginLeft="@dimen/paddingMicro2"
+        android:text="@string/phone"
+        android:autoLink="phone" />
+</LinearLayout>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center_horizontal"
+        android:paddingBottom="@dimen/paddingNormal2"
+        android:text="@string/link"
+        android:autoLink="web"
+        android:textSize="@dimen/textNormal" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/paddingMicro"
+        android:src="@drawable/uda1" />
+
+</LinearLayout>
